@@ -1,6 +1,8 @@
 
 ### Vision and Goals Of The Project:
+
 Traditionally, one application was deployed in 1 host. Developers were unable to deploy multiple applications due to lack of any isolation technology. This architecture wasted large percentage of compute resource. Then came in virtual machines, which allows you to run multiple guest operating system on your host operating system. Well, this isolation technique did utilize large percentage of your compute resources but most of it was actually being utilized for setting up of VM’s. Even after that, there is some percentage of the unutilized resource. Now, we are quickly moving our application into the container environment which allows multiple application to run on host OS itself by providing the needed isolation, which means another large percentage of unutilized resources.
+
 Currently, there is no open source solution which makes use of these unutilized resource and if you are not into a serverless platform, then you are probably renting out cloud space from one of the cloud providers to satisfy the application traffic during peak load. Your application around 80-90% of the time is not at its peak load so you have a lot of unutilized resources and you can put those slack resource to some work by deploying an application that generates revenue like a cryptocurrency miner or contribute to scientific research. For this project, we will be going with the latter.
 
 ####  The purpose of this project is to optimize slack resources without affecting the performance of a primary application running in your cluster.
@@ -12,6 +14,15 @@ Currently, there is no open source solution which makes use of these unutilized 
 * **Docker**: Docker containers wrap up the software and its dependencies into a standardized unit for software development that includes everything it needs to run: code, runtime, system tools, and libraries.
 * **BOINC**: BOINC (Berkeley Open Infrastructure for Network Computing) is an open source middleware system which supports volunteer and grid computing. 
 * **World Community Grid (WCG):** WCG is an effort to create the world's largest public computing grid to tackle scientific research projects that benefit humanity.
+
+<b>Links to the technology used:</b><br>
+  <a href="#">https://massopen.cloud/</a> |
+  <a href="#">https://www.openshift.com/</a> |
+  <a href="#">https://www.centos.org/</a> |
+  <a href="#">https://hub.docker.com/</a> |
+  <a href="#">https://boinc.berkeley.edu/</a> |
+  <a href="#">https://www.worldcommunitygrid.org/discover.action</a> |
+  <br><br>
 
 ### Users/Personas Of The Project:
 User should be having OpenShift or Kubernetes cluster. We have specifically identified two groups of users for this project and have tried to handle their concerns:
